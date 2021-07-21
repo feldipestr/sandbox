@@ -1,0 +1,23 @@
+{
+  "name": "google-dataflow-dota-2-gsi-streaming",
+  "version": "1.0.0",
+  "description": "https://www.npmjs.com/package/dota2-gsi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feldipestr/sandbox.git",
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feldipestr/sandbox/issues",
+  },
+  "dependencies": {
+    "dota2-gsi": "^1.0.2",
+    "@google-cloud/pubsub": "^0.28.1"
+  }
+}
