@@ -2,7 +2,7 @@
 spark_host = '192.168.1.1'
 spark_port = '1234'
 
-# CASSANDRA
+# SCYLLA
 cassandra_clusters = {
     'cluster_name_1': {
         "spark.cassandra.connection.host": "192.168.0.1, 192.168.0.2, 192.168.0.3",

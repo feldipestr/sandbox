@@ -6,7 +6,7 @@ from cassandra.query import dict_factory
 from cassandra.protocol import SyntaxException, RequestValidationException, RequestExecutionException, InvalidRequestException, InvalidRequest
 from collections import namedtuple
 import warnings
-from wrappers import json_dump
+from helpers.wrappers import json_dump
 from pydantic import BaseModel
 
 
